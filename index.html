@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#3b2314">
-<meta name="description" content="Invitación al cumpleaños de Samuel. Temática vaquera, vestimenta en tonos café.">
+<meta name="description" content="Invitación al cumpleaños de Samuel. Temática vaquera.">
 <title>Cumpleaños de Samuel</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -245,7 +245,7 @@ button,a{font:inherit;-webkit-tap-highlight-color:transparent}
       </li>
       <li>
         <svg class="i" aria-hidden="true"><use href="#i-hat"/></svg>
-        <span><small>Temática</small><b>Vaquero</b><em></em></span>
+        <span><small>Temática</small><b>Vaquero</b></span>
       </li>
     </ul>
     <p class="count" id="count"></p>
@@ -370,7 +370,7 @@ button,a{font:inherit;-webkit-tap-highlight-color:transparent}
       dates: `${stamp(start)}/${stamp(end)}`,
       ctz: CONFIG.zona,
       location: `${place()} (${mapQuery()})`,
-      details: 'Temática vaquera: ven vestido en tonos café.'
+      details: 'Temática vaquera.'
     }).toString();
     $('#lnkCal').href = calendar.href;
     $('#lnkMap').href = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(mapQuery())}`;
